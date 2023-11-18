@@ -1,0 +1,91 @@
+.headbts {
+    background-image:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.86), rgba(0, 0, 0, 0.8)),
+        url('../images/pitch.png');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.pitch-bg {
+    background-image:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.86), rgba(0, 0, 0, 0.8)),
+        url('../images/field.png');
+    width: 50%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.divider {
+    width: 35%;
+}
+
+.odds {
+    width: 55%;
+}
+
+.slip {
+    width: 20%;
+}
+
+h5 {
+    font-size: 15px;
+
+}
+
+.h-w-players {
+    width: 500px;
+
+
+}
+
+.eclipse {
+    background-image: url('../images/Ellipse.png');
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .divider {
+        width: 100%;
+        font-size: 8px;
+    }
+
+    .odds {
+        width: 100%;
+        font-size: 8px;
+    }
+
+    .slip {
+        width: 100%;
+        font-size: 8px;
+    }
+
+    h5 {
+        font-size: 10px;
+
+    }
+
+    .team {
+        width: 100%;
+    }
+
+    .h-text {
+        font-size: 5px, ;
+    }
+
+    .h-w-players {
+        visibility: hidden;
+        width: 1%;
+    }
+
+    .h-w-money {
+        width: 100%;
+    }
+
+    .text-h {
+        font-size: 12px;
+    }
+}
